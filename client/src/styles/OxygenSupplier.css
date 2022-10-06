@@ -1,0 +1,72 @@
+/* CSS Styles for Oxygen Supplier Page, Components, Data */
+
+@import url("https://fonts.googleapis.com/css?family=Alatsi");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat";
+  margin: auto;
+}
+
+.head-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/images/oxygenSupplierBannerImage.jpg);
+  height: 50%;
+  padding: 220px 200px 180px 200px;
+  display: block;
+  background-position: center;
+}
+
+.searchBar {
+  background: white;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Montserrat";
+}
+
+.loading-container {
+  margin: 0.5rem 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.supplier-name {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.oxygenSupplier-container .details h5 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.address h5 {
+  padding-right: 5px;
+}
+
+/* Mobile responsive mode only */
+
+@media only screen and (max-width: 768px) {
+  .head-container {
+    height: 50%;
+    padding: 150px 150px 100px 150px;
+    margin-bottom: 25px;
+  }
+  .searchBar {
+    width: 350px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+  }
+}
